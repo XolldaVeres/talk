@@ -324,7 +324,107 @@ header
 			&:hover
 				color: #6CD3E1
 				transition: 0.4s all
+.contact
+	padding-left: 180px
+	display: flex
+	justify-content: space-between
+	height: 800px
+	background-color: #22356F
+	&:nth-child(1)
+		order: 2
+	&:nth-child(2)
+		display: flex
+		justify-content: flex-end
+		order: 1
+	&_block
+		margin-top: 103px
+	&_title
+		color: #FFFFFF
+		font-weight: 400
+		font-size: 16px
+		letter-spacing: 0.06em
+		text-align: left
 
+	&_subtitle
+		font-weight: 700
+		margin-top: 230px
+		color: #FFFFFF
+		font-size: 64px
+		letter-spacing: -0.01em
+		text-align: left
+	&_descr
+		margin-top: 75px
+		color: #FFFFFF
+		width: 579px
+		font-weight: 400
+		font-size: 36px
+		letter-spacing: -0.005em
+		text-align: left
+	&_help
+		margin-top: 73px
+		font-weight: 700
+		font-size: 16px
+		letter-spacing: 0.1em
+		text-align: left
+		a
+			text-decoration: none
+			color: #62D0DF
+			&:hover
+				color: white
+				transition: 0.4s all
+footer
+	display: flex
+	flex-wrap: wrap	
+.footer	
+	&_img
+		height: 380px
+		width: 570px
+	&_block
+		width: 873px
+		display: flex
+		padding: 98px 40px 74px 68px
+	&_descr
+		margin-right: 80px
+	&_title
+		color: #22356F
+		font-weight: 700
+		font-size: 14px
+		letter-spacing: -0.006em
+		text-align: left
+	&_text
+		margin-top: 60px
+		width: 170px
+		font-weight: 400
+		color: #22356F80
+		font-size: 14px
+		line-height: 23px
+		letter-spacing: 0.01em
+		text-align: left
+		span
+			a
+				color: #006DFF
+	&_data
+		padding: 32px 194px 26px
+		width: 100%
+		height: 80px
+		background-color: #62D0DF
+		font-weight: 700
+		font-size: 14px
+		letter-spacing: -0.006em
+		text-align: left
+		span
+			color: #FFFFFF
+			position: relative
+			&::before
+				content: ''
+				position: absolute
+				display: block
+				height: 12px
+				width: 12px
+				top: 50%
+				transform: translateY(-50%)
+				left: -20px
+				background: url('../logo/footer.svg') center center/cover no-repeat
 
 
 
